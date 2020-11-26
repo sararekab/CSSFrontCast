@@ -22,7 +22,7 @@ body {
     display: inline-block
 }
 
-.main-header-logo {
+.main-header-logo-sssss {
     color: #ffffff;
     font-size: 20px;
     text-decoration: none;
@@ -81,9 +81,6 @@ p::first-letter {
     background-size: cover;
 }
 
-
-/* ................................................................................ */
-
 #plans {}
 
 .section-title {
@@ -97,7 +94,8 @@ p::first-letter {
     background-color: #f1dfdf;
 }
 
-.plan {}
+
+/* .plan {}
 
 .section-title {}
 
@@ -111,4 +109,4 @@ p::first-letter {
 
 .plan-feature {}
 
-.plan-btn {}
+.plan-btn {} */
