@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "vazir-FD";
+    src: url(./font/Vazir.woff);
+}
+
+body {
+    margin: 0;
+    font-family: "vazir-FD";
+}
+
+.main-header {
+    width: 100%;
+    background: #a03b3b;
+    padding: 8px 16px;
+}
+
+.main-header>div {
+    display: inline-block
+}
+
+.main-header-logo-sssss {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main-nav {
+    display: inline-block;
+    width: calc(100% - 70px);
+    text-align: right;
+}
+
+.main-nav-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav-item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav-item a {
+    text-decoration: none;
+    color: #bbdefb;
+}
+
+.main-nav-item a:hover,
+.main-nav-item a:active {
+    color: #ffffff;
+}
+
+p::first-letter {
+    font-size: 20px;
+    color: red;
+}
+
+.main-nav-item-account a {
+    background: #ffffff;
+    color: rgb(134, 46, 46);
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.main-nav-item-account a:hover,
+.main-nav-item-account a:active {
+    color: rgb(134, 46, 46);
+}
+
+#overview {
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/photo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#plans {}
+
+.section-title {
+    color: rgb(134, 46, 46);
+    text-align: center;
+}
+
+.plan-list {
+    width: 65%;
+    margin: auto;
+    background-color: #f1dfdf;
+}
+
+
+/* .plan {}
+
+.section-title {}
+
+.plan {}
+
+.plan-title {}
+
+.plan-price {}
+
+.plan-features {}
+
+.plan-feature {}
+
+.plan-btn {} */
